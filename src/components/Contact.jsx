@@ -1,6 +1,7 @@
 import React from "react";
-import { CONTACT } from "../constants";
+import { CONTACT } from "../static";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -9,9 +10,9 @@ const Contact = () => {
       <div className="text-center tracking-tighter">
         <motion.p whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className="my-4">{CONTACT.address}</motion.p>
         <motion.p whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className="my-4">{CONTACT.phoneNo}</motion.p>
-        <a href={`mailto:${CONTACT.email}`} className="border-b">
+        <Link to={`https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act&gar=WzEyMF0`} target="blank" className="border-b">
           {CONTACT.email}
-        </a>
+        </Link>
       </div>
     </div>
   );

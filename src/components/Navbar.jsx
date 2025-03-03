@@ -1,7 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
-import logo from "../assets/raviKumarLogo.webp";
 import React from "react";
-import { GiThunderBlade } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
 import { BsInstagram, BsTelegram } from "react-icons/bs";
 
@@ -9,8 +7,8 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 item-center">
-        <a href="/" aria-label="Home">
-          <img src={logo} alt="logo" className="mx-2 w-[50px] h-[33px]" />
+        <a href="/" aria-label="Home" className="text-5xl font-bold">
+        MG
         </a>
       </div>
 

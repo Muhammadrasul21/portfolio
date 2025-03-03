@@ -1,7 +1,6 @@
 import React from "react";
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/profilelogo.jpg";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
 
 const containerVariants = {
   hidden: { opacity: 0, x: -100 },
@@ -28,8 +27,8 @@ const Hero = () => {
             <motion.img
               src={profilePic}
               alt="Muhammadrasul Gulomjonov"
-              className=" border border-stone-900 rounded-3xl w-[650px] h-[650px]"
-              initial={{ x: 100, opacity: 0 }}
+              className=" border border-stone-900 rounded-3xl w-[650px] h-auto"
+              initial={{ x: "100vw", opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
             />
@@ -58,16 +57,7 @@ const Hero = () => {
               variants={childVriants}
               className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
             >
-              Front-End Developer with 7 months of ongoing study at Najot Ta'lim
-              educational center. Proficient in HTML, CSS, SASS, Bootstrap,
-              Tailwind CSS, and JavaScript, with a strong focus on responsive
-              design and user experience. Skilled in React and state management
-              tools such as Context API, Redux, Redux Toolkit, RTK Query, and
-              Zustand. Experienced in Git and GitHub for version control. Strong
-              problem-solving skills with an analytical approach to debugging
-              and optimizing code. Continuously learning and exploring modern
-              front-end frameworks and best practices to stay up to date with
-              industry trends.
+             Front-End Developer  7 months of ongoing study at Najot Ta'lim. Proficient in HTML, CSS (SASS, Bootstrap, Tailwind), and JavaScript. Skilled in React, Context API, Redux (RTK, RTK Query), and Zustand. Experienced with Git/GitHub for version control. Strong problem-solving skills with a focus on debugging and optimization. Continuously learning modern technologies to stay up to date with industry trends.
             </motion.p>
             <motion.a
               variants={childVriants}
@@ -75,7 +65,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
+              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10 cursor-pointer"
             >
               Donwload Resume
             </motion.a>
