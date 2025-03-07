@@ -1,5 +1,5 @@
 import React from "react";
-import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsLine, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import { AiOutlineJavaScript } from "react-icons/ai";
 import { motion } from "framer-motion";
@@ -71,6 +71,13 @@ const Technologies = () => {
           variants={iconVariants(2)}
         >
           <RiReactjsLine className="text-7xl text-cyan-400" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(6)}
+        >
+          <RiNextjsLine className="text-7xl text-white" />
         </motion.div>
       </motion.div>
     </div>

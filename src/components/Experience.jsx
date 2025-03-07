@@ -7,7 +7,7 @@ const Experience = () => {
       <motion.p whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1}} className="max-w-[700px] m-auto">
         Currently learning front-end development for the past 7 months at Najot
         Ta'lim. I have been working on various projects to strengthen my skills
-        in HTML, CSS, JavaScript, and React.
+        in HTML, CSS, JavaScript, ReactJs and NextJs.
       </motion.p>
     </div>
   );
