@@ -45,7 +45,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Chilonzor District, 6th Quarter, Tashkent, Uzbekistan",
+  address: "Chilonzor District, Tashkent, Uzbekistan",
   phoneNo: "+998 91 064 48 38",
   email: "mgulomjonov151@gmail.com",
 };

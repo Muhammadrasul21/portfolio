@@ -2,6 +2,7 @@ import React from "react";
 import { RiNextjsLine, RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5, FaCss3 } from "react-icons/fa";
 import { AiOutlineJavaScript } from "react-icons/ai";
+import { TbBrandTypescript } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -44,7 +45,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(3)}
+          variants={iconVariants(6)}
           className="p-4"
         >
           <FaCss3 className="text-7xl text-[#1572B6]" />
@@ -52,7 +53,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(3)}
+          variants={iconVariants(4)}
           className="p-4"
         >
           <RiTailwindCssFill className="text-7xl text-[#38BDF8]" />
@@ -60,10 +61,18 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(5)}
+          variants={iconVariants(4.5)}
           className="p-4"
         >
           <AiOutlineJavaScript className="text-7xl text-[#F7DF1E]" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4)}
+          className="p-4"
+        >
+          <TbBrandTypescript className="text-7xl text-[#3178C6]" />
         </motion.div>
         <motion.div
           initial="initial"
