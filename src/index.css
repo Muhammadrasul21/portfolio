@@ -6,3 +6,34 @@
   font-family: "Inter", sans-serif;
   background: #000000;
 }
+
+
+@media (max-width:1270px) {
+  .projects {
+    gap: 40px;
+  }
+}
+
+@media (max-width:1280px) {
+  .img {
+    padding: 0;
+  }
+  .name{
+    font-size: 70px;
+   }
+}
+@media (max-width:1025px) {
+.hero{
+  flex-direction: column;
+}
+}
+@media (max-width:560px) {
+  .name{
+    font-size: 60px;
+   }
+}
+@media (max-width:460px) {
+  .name{
+    font-size: 40px;
+   }
+}

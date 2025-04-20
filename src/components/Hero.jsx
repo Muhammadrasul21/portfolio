@@ -21,9 +21,9 @@ const childVriants = {
 const Hero = () => {
   return (
     <div className="pb-4 lg:mb-36">
-    <div className="flex flex-wrap lg:flex-row-reverse">
+    <div className="flex hero sm:flex-row-reverse gap-10">
       <div className="w-full lg:w-1/2">
-        <div className="flex justify-center lg:p-8">
+        <div className="flex justify-center img lg:p-8">
           <motion.img
             src={profilePic}
             alt="Muhammadrasul Gulomjonov"
@@ -43,13 +43,13 @@ const Hero = () => {
         >
           <motion.h2
             variants={childVriants}
-            className="pb-2 text-4xl text-center tracking-tighter lg:text-8xl"
+            className="pb-2 name text-4xl  text-center tracking-tighter lg:text-8xl"
           >
             Muhammadrasul Gulomjonov
           </motion.h2>
           <motion.span
             variants={childVriants}
-            className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+            className="hidden sm:flex bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
           >
             Front-End Developer
           </motion.span>
